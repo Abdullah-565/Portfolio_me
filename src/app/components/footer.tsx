@@ -1,3 +1,4 @@
+"use client"
 import { BiLogoFacebookSquare } from "react-icons/bi";
 import { FaTwitter } from "react-icons/fa";
 import { SiInstagram } from "react-icons/si";

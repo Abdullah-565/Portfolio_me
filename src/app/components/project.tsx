@@ -1,3 +1,4 @@
+// "use client"
 import Image from "next/image"
 import Link from "next/link"
 const Project = () => {
@@ -15,7 +16,7 @@ const Project = () => {
       <div className="lg:w-1/4 sm:w-1/2 p-4 ">
         <div className="flex relative">
           <Image
-            alt="gallery"
+            alt="portfolio"
             className="absolute inset-0 w-full h-full object-cover object-center"
             src={require("../../../public/assets/Portfolio.PNG")}
           />
@@ -40,7 +41,7 @@ const Project = () => {
       <div className="lg:w-1/4 sm:w-1/2 p-4 " >
         <div className="flex relative">
           <Image
-            alt="gallery"
+            alt="clone"
             className="absolute inset-0 w-full h-full object-cover object-center"
             src={require("../../../public/assets/Microsoft.PNG")}
           />
@@ -65,7 +66,7 @@ const Project = () => {
       <div className="lg:w-1/4 sm:w-1/2 p-4">
         <div className="flex relative">
           <Image
-            alt="gallery"
+            alt="facebook"
             className="absolute inset-0 w-full h-full object-cover object-center"
             src={require("../../../public/assets/Facebook.PNG")}
           />

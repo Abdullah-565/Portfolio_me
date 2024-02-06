@@ -1,4 +1,5 @@
-"use client"
+// "use client"
+import abd from "../../../public/assets/abd.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -39,8 +40,8 @@ const Hero = () => {
                height={400}
                width={400}
               className="object-cover object-center rounded-full mx-auto shadow-lg shadow-white"
-              alt="hero"
-              src={require("../../../public/assets/abd.png")}
+              alt="abdulllah"
+              src={abd}
             />
           </div>
         </div>

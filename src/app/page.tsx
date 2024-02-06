@@ -1,4 +1,4 @@
-import Image from "next/image";
+"use client"
 import Link from "next/link";
 import Hero from "./components/hero";
 import Contact from "./components/contact";
