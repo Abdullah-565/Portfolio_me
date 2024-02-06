@@ -1,11 +1,8 @@
-
+"use client"
 import { TfiHtml5 } from "react-icons/tfi";
 import { IoLogoCss3 } from "react-icons/io";
 import { DiJavascript } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
-
-
-
 
 const Skill = () => {
   return (
@@ -109,7 +106,7 @@ const Skill = () => {
           </div>
           <div className="flex-grow text-black">
             <p className="leading-relaxed text-base line-clamp-3">
-            JavaScript is a dynamic programming language that's used for web development, in web applications, for game development, and lots more.
+            JavaScript is a dynamic programming language that is used for web development, in web applications, for game development, and lots more.
             </p>
             <a className="mt-3 text-indigo-500 inline-flex items-center">
               Learn More
